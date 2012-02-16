@@ -1,13 +1,13 @@
 ---
 nl-NL: 
-  'no': "No"
-  'yes': "Yes"
-  5_biggest_spenders: "5 Biggest Spenders"
+  'no': "Ja"
+  'yes': "Nee"
+  5_biggest_spenders: "5 Grootste Besteders"
   a_copy_of_all_mail_will_be_sent_to_the_following_addresses: "Een kopie van alle mail wordt verzonden naar de volgende adressen"
   abbreviation: Afkorting
   access_denied: "Toegang geweigerd"
   account: Account
-  account_updated: "Account updated!"
+  account_updated: "Account bijgewerkt!"
   action: Actie
   actions: 
     cancel: Annuleer
@@ -21,34 +21,34 @@ nl-NL:
   activerecord: 
     attributes: 
       address: 
-        address1: "Adres lijn 1"
-        address2: "Adres lijn 2"
+        address1: "Adresregel 1"
+        address2: "Adresregel 2"
         city: Woonplaats
-        country: "Country"
-        first_name_begins_with: "First Name Begins With"
-        firstname: "First Name"
-        last_name_begins_with: "Last Name Begins With"
-        lastname: "Last Name"
+        country: "Land"
+        first_name_begins_with: "Voornaam begint met"
+        firstname: "Voornaam"
+        last_name_begins_with: "Achternaam begint met"
+        lastname: "Achternaam"
         phone: Telefoon
-        state: "State"
+        state: "Provincie of Staat"
         zipcode: Postcode
       checkout: 
         bill_address: 
-          address1: "Billing address street"
-          city: "Billing address city"
-          firstname: "Billing address first name"
-          lastname: "Billing address last name"
-          phone: "Billing address phone"
-          state: "Billing address state"
-          zipcode: "Billing address zipcode"
+          address1: "Factuuradres straat"
+          city: "Factuuradres stad"
+          firstname: "Factuuradres voornaam"
+          lastname: "Factuuradres achternaam"
+          phone: "Factuuradres telefoonummer"
+          state: "Factuuradres provincie of staat"
+          zipcode: "Factuuradres postcode"
         ship_address: 
-          address1: "Shipping address street"
-          city: "Shipping address city"
-          firstname: "Shipping address first name"
-          lastname: "Shipping address last name"
-          phone: "Shipping address phone"
-          state: "Shipping address state"
-          zipcode: "Shipping address zipcode"
+          address1: "Postadres straat"
+          city: "Postadres stad"
+          firstname: "Postadres voornaam"
+          lastname: "Postadres achternaam"
+          phone: "Postadres telefoonummer"
+          state: "Postadres provincie of staat"
+          zipcode: "Postadres postcode"
       country: 
         iso: ISO
         iso3: ISO3
@@ -78,7 +78,7 @@ nl-NL:
         total: Totaal
       product: 
         available_on: "Beschikbaar Op"
-        cost_price: "Cost Price"
+        cost_price: "Kostprijs"
         description: Omschrijving
         master_price: "Prijs"
         name: Naam
@@ -87,27 +87,27 @@ nl-NL:
         tax_category: "Tax Category"
       product_group: 
         name: "Name"
-        product_count: "Product count"
+        product_count: "Productaantal"
         product_scopes: "Product scopes"
-        products: "Products"
+        products: "Producten"
         url: "URL"
       product_scope: 
-        arguments: "Arguments"
-        description: "Description"
+        arguments: "Argumenten"
+        description: "Beschrijving"
       promotion: 
         code: "Code"
-        description: "Description"
-        expires_at: "Expires at"
+        description: "Beschrijving"
+        expires_at: "Verloopt op"
         name: "Name"
-        starts_at: "Starts at"
-        usage_limit: "Usage limit"
+        starts_at: "Begint op"
+        usage_limit: "Gebruikslimiet"
       property: 
         name: Naam
         presentation: Presentatie
       prototype: 
         name: Naam
       return_authorization: 
-        amount: Amount
+        amount: Aantal
       role: 
         name: Naam
       state: 
@@ -127,7 +127,7 @@ nl-NL:
       user: 
         email: E-mail
       variant: 
-        cost_price: "Cost Price"
+        cost_price: "Kostprijs"
         depth: Diepte
         height: Hoogte
         price: Prijs
@@ -142,8 +142,8 @@ nl-NL:
         one: Adres
         other: Adressen
       cheque_payment: 
-        one: Cheque Payment
-        other: Cheque Payments
+        one: "Chequebetaling"
+        other: "Chequebetalingen"
       country: 
         one: Land
         other: Landen
@@ -151,11 +151,11 @@ nl-NL:
         one: "Creditcard"
         other: "Creditcards"
       creditcard_payment: 
-        one: "Creditcard betaling"
-        other: "Creditcard betalingen"
+        one: "Creditcardbetaling"
+        other: "Creditcardbetalingen"
       creditcard_txn: 
-        one: "Creditcard verrichting"
-        other: "Creditcard verrichtingen"
+        one: "Creditcardverrichting"
+        other: "Creditcardverrichtingen"
       inventory_unit: 
         one: "Voorraad eenheid"
         other: "Voorraad eenheden"
@@ -172,35 +172,35 @@ nl-NL:
         one: Product
         other: Producten
       product_group: 
-        one: "Product group"
-        other: "Product groups"
+        one: "Product groep"
+        other: "Product groepen"
       property: 
         one: Eigenschap
         other: Eigenschappen
       prototype: 
         one: Prototype
-        other: Prototypen
+        other: Prototypes
       return_authorization: 
-        one: Return Authorization
-        other: Return Authorizations
+        one: Retourautorisatie
+        other: Retourautorisaties
       role: 
         one: Rol
         other: Rollen
       shipment: 
-        one: Shipment
-        other: Shipments
+        one: Verzending
+        other: Verzendingen
       shipping_category: 
-        one: "Verzend-categorie"
-        other: "Verzend-categorieën"
+        one: "Verzendcategorie"
+        other: "Verzendcategorieën"
       state: 
         one: Status
         other: Statussen
       tax_category: 
-        one: "Tax Category"
-        other: "Tax Categories"
+        one: "Belastingcategorie"
+        other: "Belastingcategorieën"
       tax_rate: 
-        one: "Tax Rate"
-        other: "Tax Rates"
+        one: "Belastingtarief"
+        other: "Belastingtarieven"
       taxon: 
         one: Taxon
         other: Taxons
@@ -222,9 +222,9 @@ nl-NL:
   add_option_type: "Optie Type Toevoegen"
   add_option_types: "Optie Type"
   add_option_value: "Optie Waarde Toevoegen"
-  add_product: "Add Product"
-  add_product_properties: "Add Product Properties"
-  add_rule_of_type: Add rule of type
+  add_product: "Product Toevoegen"
+  add_product_properties: "Producteigenschap Toevoegen"
+  add_rule_of_type: "Regel of Type toevoegen"
   add_scope: "Add a scope"
   add_state: "Status Toevoegen"
   add_to_cart: "Toevoegen aan Winkelwagen"
@@ -237,7 +237,7 @@ nl-NL:
   adjustments: Adjustments
   administration: Administratie
   all: "All"
-  all_departments: All departments
+  all_departments: Alle afdelingen
   allow_backorders: "Nabestellingen toelaten"
   allow_ssl_to_be_used_when_in_developement_and_test_modes: "SSL gebruik toestaan in ontwikkel- en testomgevingen"
   allow_ssl_to_be_used_when_in_production_mode: "SSL gebruik toestaan in productie-omgeving"
@@ -269,8 +269,8 @@ nl-NL:
   are_you_sure_you_want_to_capture: "Wilt u dit echt in rekening brengen?"
   assign_taxon: "Taxon Toekennen"
   assign_taxons: "Taxons Toekennen"
-  authorization_failure: "Autorisatie mislukt"
-  authorized: "Autorisatie gelukt"
+  authorization_failure: "Authorisatie mislukt"
+  authorized: "Authorisatie gelukt"
   available_on: "Beschikbaar op"
   available_taxons: "Beschikbare taxons"
   awaiting_return: Awaiting Return
@@ -283,14 +283,14 @@ nl-NL:
   best_selling_products: "Best Selling Products"
   best_selling_taxons: "Best Selling Taxons"
   bill_address: "Factuuradres"
-  billing: Billing
+  billing: Facturatie
   billing_address: "Factuuradres"
-  both: Both
+  both: Beide
   by_day: "by day"
   calculator: Calculator
   calculator_settings_warning: "If you are changing the calculator type, you must save first before you can edit the calculator settings"
-  cancel: annuleer
-  cancel_my_account: Cancel my account
+  cancel: Annuleren
+  cancel_my_account: Annuleer mijn account
   cancel_my_account_description: "Unhappy?"
   canceled: Geannuleerd
   cannot_create_returns: Cannot create returns as this order has not shipped yet.
@@ -336,7 +336,7 @@ nl-NL:
   coupon: Coupon
   coupon_code: Coupon code
   create: Aanmaken
-  create_a_new_account: "Maak een nieuwe account aan"
+  create_a_new_account: "Maak een nieuw account aan"
   create_product_group_from_products: Create a new product group from these products
   create_user_account: Create User Account
   created_successfully: "Succesvol aangemaakt"
@@ -354,7 +354,7 @@ nl-NL:
   customer_details: "Customer Details"
   customer_search: "Customer Search"
   date_created: Date created
-  date_range: "Datum Bereik"
+  date_range: "Datumbereik"
   debit: Debit
   default: Default
   delete: Verwijder
@@ -474,21 +474,21 @@ nl-NL:
   inventory_settings: "Voorraad instellingen"
   is_not_available_to_shipment_address: is not available to shipment address
   issue_number: Issue Number
-  item: Products
-  item_description: "Product Omschrijving"
-  item_total: "Product Totaal"
+  item: Producten
+  item_description: "Productomschrijving"
+  item_total: "Producttotaal"
   item_total_rule: 
     operators: 
-      gt: greater than
-      gte: greater than or equal to
+      gt: groter dan
+      gte: groter dan of gelijk aan
   items: "Items"
-  last_14_days: "Last 14 Days"
-  last_5_orders: "Last 5 Orders"
-  last_7_days: "Last 7 Days"
-  last_month: "Last Month"
+  last_14_days: "Laatste 14 dagen"
+  last_5_orders: "Laatste 5 bestellingen"
+  last_7_days: "Laatste 7 dagen"
+  last_month: "Laatste maand"
   last_name: "Achternaam"
-  last_name_begins_with: "Last Name Begins With"
-  last_year: "Last Year"
+  last_name_begins_with: "Achternaam begint met"
+  last_year: "Laatste jaar"
   leave_blank_to_not_change: "(leave blank if you don't want to change it)"
   list: Lijst
   listing_categories: "Lijst Categorieën"
@@ -499,7 +499,7 @@ nl-NL:
   listing_tax_categories: "Lijst BTW categorieën"
   listing_users: "Lijst Gebruikers"
   live: "Live"
-  loading: Loading
+  loading: Laden
   locale_changed: "Regionale Instellingen Gewijzigd"
   log_in: "Inloggen"
   logged_in_as: "Ingelogd als"
@@ -507,20 +507,20 @@ nl-NL:
   logged_out: "U bent nu uitgelogd."
   login: Login
   login_as_existing: "Log in als bestaande klant"
-  login_failed: "Inloggen mislukt."
+  login_failed: "Inloggen mislukt"
   login_name: Loginnaam
   logout: Uitloggen
-  look_for_similar_items: Look for similar items
-  maestro_or_solo_cards: Maestro/Solo cards
-  mail_delivery_enabled: "Mail aflevering aangezet"
-  mail_delivery_not_enabled: "Mail aflevering afgezet"
-  mail_methods: Mail Methods
-  mail_server_preferences: "Mail server Instellingen"
-  make_refund: Make refund
+  look_for_similar_items: Vergelijkbare items bekijken
+  maestro_or_solo_cards: Maestro/Solo pas
+  mail_delivery_enabled: "Mailaflevering aangezet"
+  mail_delivery_not_enabled: "Mailaflevering afgezet"
+  mail_methods: Mailmethoden
+  mail_server_preferences: "Mailserver Instellingen"
+  make_refund: Terugstorting doen
   mark_shipped: "Markeer verzonden"
   master_price: "Prijs"
   max_items: Max Items
-  may_be_combined_with_other_promotions: May be combined with other promotions
+  may_be_combined_with_other_promotions: Mag gecombineerd worden met andere aanbiedingen
   meta_description: "Meta-beschrijving"
   meta_keywords: "Meta keywords"
   metadata: "Metadata"
@@ -674,10 +674,10 @@ nl-NL:
   powered_by: "Powered by"
   presentation: Presentatie
   preview: Preview
-  previous: vorige
+  previous: Vorige
   price: Prijs
   price_bucket: Price Bucket
-  price_with_vat_included: "%{price} (inc. VAT)"
+  price_with_vat_included: "%{price} (inc BTW)"
   problem_authorizing_card: "Fout bij autorisatie betaling"
   problem_capturing_card: "Fout bij afboeken betaling"
   problems_processing_order: "Fout vastgesteld bij het verwerken van de bestelling"
@@ -689,7 +689,7 @@ nl-NL:
   product_group_invalid: Product Group has invalid scopes
   product_groups: Product Groups
   product_has_no_description: Product has not description
-  product_properties: "Product Eigenschappen"
+  product_properties: "Producteigenschappen"
   product_rule: 
     choose_products: Choose products
     label: "Order must contain %{select} of these products"
@@ -990,9 +990,9 @@ nl-NL:
   tax_categories: "BTW Categorieën"
   tax_categories_setting_description: "Instellen BTW categorieën om aan te duiden welke producten onderhevig zijn aan BTW."
   tax_category: "BTW Categorie"
-  tax_rates: "Tax Rates"
+  tax_rates: "Belastingtarieven"
   tax_rates_description: Tax rates setup and configuration.
-  tax_settings: "Tax Settings"
+  tax_settings: "Belastingtype"
   tax_settings_description: Basic tax settings.
   tax_total: "BTW Totaal"
   tax_type: "BTW Type"
@@ -1066,7 +1066,7 @@ nl-NL:
   what_is_this: "Wat is dit?"
   whats_this: "Wat is dit"
   width: Breedte
-  year: "Year"
+  year: Jaar
   you_have_been_logged_out: "U bent nu uitgelogd."
   you_have_no_orders_yet: "You have no orders yet."
   your_cart_is_empty: "Uw winkelwagen is leeg"
