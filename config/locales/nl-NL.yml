@@ -616,10 +616,10 @@ nl-NL:
     awaiting_return: wachtend op terugzending
     canceled: geanulleerd
     cart: winkelwagen
-    complete: afgerond
+    complete: klaar
     confirm: bevestigen
-    delivery: levering
-    payment: betaling
+    delivery: leveringsgegevens
+    payment: betalingsgegevens
     resumed: hervat
     returned: teruggezonden
   order_summary: Besteloverzicht
